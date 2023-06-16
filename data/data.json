@@ -1,0 +1,95 @@
+{
+    "projects" : [
+        {
+           "id" : 1,
+           "name" : "PC - 동아ST 기업 웹사이트",
+           "video" : "./images/v_pc.gif",
+           "title" : "동아ST 웹",
+           "description" : "기존 웹사이트가 XHTML로 제작, 텍스트의 불필요한 이미지 처리, 마크업 검사 시 다수 에러 발생 등 웹 접근성 문제가 있다고 파악하여, 웹 접근성과 웹 표준 향상에 초점을 두고 새롭게 구축하였습니다.",
+           "period" : "약 4주 소요",
+           "skill" : "HTML5, CSS3, JavaScript & jQuery, Ajax, PHP, MySQL",
+           "url" : "https://earnestga3.cafe24.com/",
+           "url2" : "earnestga3.cafe24.com",
+           "url_tit" : "동아ST PC 사이트 새창으로 열림"
+        },
+        {
+           "id" : 2,
+           "name" : "Mobile - 동아ST 기업 웹사이트",
+           "video" : "./images/v_mobile.gif",
+           "title" : "동아ST 모바일웹",
+           "description" : "PC용으로 구현된 기업형 동아ST 웹사이트를 다양한 모바일 기기에 적합한 UI를 적용해 새로 구현한 모바일용 웹사이트입니다. 마우스가 아닌 사용자의 터치 이벤트를 중점적으로 구현했으며, PC버전과 다르게 간략화된 컨텐츠와 메뉴로 구성하였습니다.",
+           "period" : "약 2주 소요",
+           "skill" : "HTML5, CSS3, JavaScript & jQuery, Ajax, PHP, MySQL",
+           "url" : "https://earnestga3.cafe24.com/mobile/",
+           "url2" : "earnestga3.cafe24.com/mobile",
+           "url_tit" : "동아ST 모바일 사이트 새창으로 열림",
+           "qr_img" : "./images/mb_qr2.png",
+           "qr_alt" : "동아ST 모바일 qr"
+        },
+        {
+           "id" : 3,
+           "name" : "Responsive - MOANA 반응형 웹사이트",
+           "video" : "./images/v_media1.mp4",
+           "device_img1" : "./images/media1.png",
+           "device_img2" : "./images/media2.png",
+           "img1_alt" : "탭 버전 이미지",
+           "img2_alt" : "모바일 버전 이미지",
+           "title" : "모아나 반응형웹",
+           "description" : "애니메이션 MOANA를 주제로 다양한 디바이스의 해상도에 따라 변하는 반응형 사이트를 구현했습니다. 애니메이션의 분위기와 이미지를 고려해 시각적 부분을 강조해 제작했습니다.",
+           "period" : "약 2주 소요",
+           "skill" : "HTML5, CSS3, Javascript & jQuery",
+           "url" : "https://earnestga3.cafe24.com/media/",
+           "url2" : "earnestga3.cafe24.com/media",
+           "url_tit" : "모아나 반응형 사이트 새창으로 열림",
+           "qr_img" : "./images/res_qr2.png",
+           "qr_alt" : "모아나 반응형 사이트 qr"
+        },
+        {
+           "id" : 4,
+           "name" : "Bootstrap - Aesop 반응형 웹사이트",
+           "video" : "./images/v_boot.gif",
+            "device_img1" : "./images/boot1.png",
+           "device_img2" : "./images/boot2.png",
+           "img1_alt" : "탭 버전 이미지",
+           "img2_alt" : "모바일 버전 이미지",
+           "title" : "이솝 부트스트랩",
+           "description" : "기존 웹사이트가 XHTML로 제작, 텍스트의 불필요한 이미지 처리, 마크업 검사 시 다수 에러 발생 등 웹 접근성 문제가 있다고 파악하여, 웹 접근성과 웹 표준 향상에 초점을 두고 새롭게 구축하였습니다.",
+           "period" : "약 3일 소요",
+           "skill" : "Bootstrap, HTML5, CSS3, Javascript & jQuery",
+           "url" : "https://earnestga3.cafe24.com/bootstrap/",
+           "url2" : "earnestga3.cafe24.com/bootstrap",
+           "url_tit" : "이솝 부트스트랩 사이트 새창으로 열림",
+           "qr_img" : "./images/boot_qr2.png",
+           "qr_alt" : "이솝 부트스트랩 사이트 qr"
+        },
+        {
+           "id" : 5,
+           "name" : "Wordpress - Crow Canyon 반응형 웹사이트",
+           "video" : "./images/v_wp.gif",
+           "title" : "크로우캐년 워드프레스",
+           "description" : "오픈소스 CMS 중 가장 많이 사용하는 워드프레스의 테마와 플러그인을 이용하여 크로우캐년을 주제로 웹사이트를 구현했습니다.",
+           "period" : "약 4일 소요",
+           "skill" : "WordPress, HTML5, CSS3",
+           "url" : "https://earnestga3.cafe24.com/wordpress/",
+           "url2" : "earnestga3.cafe24.com/wordpress",
+           "url_tit" : "크로우캐년 워드프레스 사이트 새창으로 열림",
+           "qr_img" : "./images/word_qr2.png",
+           "qr_alt" : "크로우캐년 워드프레스 사이트 qr"
+        },
+        {
+           "id" : 6,
+           "name" : "Vue - 저염실천음식점 웹사이트",
+           "video" : "./images/v_vue.gif",
+           "title" : "저염실천음식점 Vue SPA",
+           "description" : "공공데이터포털의 나트륨 줄이기 실천음식점 지정업체를 주제로 한 SPA 웹사이트입니다. Vue UI 프레임워크인 vuetify를 사용해 웹사이트를 구현했습니다.",
+           "period" : "약 4일 소요",
+           "skill" : "Vue, Vuetify, HTML5, CSS3, JavaScript & jQuery, Json",
+           "url" : "https://earnestga3.cafe24.com/vue/",
+           "url2" : "earnestga3.cafe24.com/vue",
+           "url_tit" : "뷰 프로젝트 사이트 새창으로 열림"
+        }
+    ],
+   "image" : [
+      {"monitor" : "./images/monitor.png"}
+   ]
+}

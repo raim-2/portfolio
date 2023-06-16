@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>김민경 포트폴리오</title>
+    <meta name="description" content="신입 웹퍼블리셔 김민경의 포트폴리오입니다.">
+    <meta property="og:title" content="김민경 포트폴리오">
+    <meta property="og:description" content="신입 웹퍼블리셔 김민경의 포트폴리오입니다.">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/7a47db0dc1.js" crossorigin="anonymous"></script>
+    <script defer src="./js/project.js"></script>
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <div id="directLink" class="hidden">
+        <a href="#main">본문 바로가기</a>
+        <a href="#nav">네비게이션 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header" class="header">
+            <div class="header__inner clearfix inner">
+                <h1 class="header__logo">
+                    <a href="./index.html">
+                        <span class="text_ir">김민경 포트폴리오</span>
+                    </a>
+                </h1>
+                <nav id="nav" class="nav flex">
+                    <h2 class="hidden">네비게이션 영역</h2>
+                    <ul class="nav__inner flex">
+                        <li class="nav__list">
+                            <a href="#intro" class="list__text">HOME</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#secProfile" class="list__text">PROFILE</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#secProject" class="list__text">PROJECT</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#secContact" class="list__text">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__nav-btn">
+                    <button class="btn btn_open" type="button">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <span class="text_ir">메뉴 버튼</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="intro" id="intro">
+                <div class="intro__top flex">
+                    <p class="intro__tit">김민경 포트폴리오</p>
+                    <p class="intro__text motto">멈추지 않는 한 아무리 느리게 간다 해도<br>
+                        문제가 되지 않는다.
+                    </p>
+                    <button type="button" class="btn intro__btn">
+                        더 알아보기
+                    </button>
+                </div>
+                <div class="intro__bottom">
+                    <p class="intro__text flex"></p>
+                </div>
+        </div>
+        <article id="main" class="main">
+            <h2 class="hidden">본문 내용</h3>
+            <section id="secProfile" class="section1 section">
+                <div class="section1__inner">
+                    <h4 class="text_ir">PROFILE</h4>
+                    <div class="profile-left">
+                        <div class="profile__img-wrap">
+                            <img src="./images/img_profile.jpg" alt="프로필 이미지" class="profile__img">
+                        </div>
+                        <p class="profile__intro">
+                        안녕하세요<span class="ico_hello"></span><br>
+                        꾸준히 성장하고 싶은 신입,<br>
+                        <span class="text--bold">웹퍼블리셔</span> 김민경입니다.
+                        </p>
+                    </div>
+                    <div class="profile-right">
+                        <ul class="profile__skill">
+                            <li class="skill__list">
+                                <h5 class="skill__tit">HTML & CSS</h5>
+                                <ul class="skill__des">
+                                    <li>웹표준과 웹접근성 이해</li>
+                                    <li>시맨틱 마크업을 통한 의미있는 구조 설계</li>
+                                    <li>미디어쿼리를 이용한 반응형웹 제작</li>
+                                    <li>레이아웃 구성하는 float, flex, grid 사용</li>
+                                    <li>CSS 애니메이션 이용한 동적 구현</li>
+                                </ul>
+                            </li>
+                            <li class="skill__list">
+                                <h5 class="skill__tit">JavaScript</h5>
+                                <ul class="skill__des">
+                                    <li>동적 구현을 위한 이벤트 구현</li>
+                                    <li>기능 구현 위한 플러그인 및 라이브러리 사용</li>
+                                    <li>비동기 처리를 위한 ajax 사용</li>
+                                    <li>첨부파일 미리보기 위한 fileReader api 사용</li>
+                                </ul>
+                            </li>
+                            <li class="skill__list">
+                                <h5 class="skill__tit">OTHER SKILLS</h5>
+                                <ul class="skill__des">
+                                    <li>포토샵을 이용한 웹디자인 시안 제작</li>
+                                    <li>프리미어 프로를 이용한 간단한 영상 작업</li>
+                                    <li>git을 사용한 github 관리</li>
+                                    <li>블로그 및 티스토리 운영</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="secProject" class="section2 section clearfix">
+                <h4 class="section__tit">PROJECT</h4>
+                <article class="section2__project"></article>
+                <div class="section2__ico">
+                    <div class="section2__btn">
+                        <button type="button" class="btn btn_left">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            <span class="text_ir">이전 버튼</span>
+                        </button>
+                        <button type="button" class="btn btn_right">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <span class="text_ir">다음 버튼</span>
+                        </button>
+                    </div>
+                    <div class="section2__page">
+                        <div class="page_current"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="secContact" class="section3 section flex">
+                <div class="section3__inner inner">
+                    <h4 class="section__tit">CONTACT</h4>
+                    <div class="section3__text">
+                        <p>포트폴리오를 봐주셔서 감사합니다.</p>
+                    </div>
+                    <span class="ico_smile">😁</span>
+                    <ul class="section3__more-info flex">
+                        <li class="more-info__list">
+                            <a href="#" target="_blank" title="새창으로 열림">
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                                <span>이력서</span>
+                            </a>
+                        </li>
+                        <li class="more-info__list">
+                            <a href="https://github.com/raim-2/kdt_project.git" target="_blank" title="새창으로 열림">
+                                <span>
+                                    <i class="fa-solid fa-link"></i>
+                                </span>
+                                <span>깃허브</span>
+                            </a>
+                        </li>
+                        <li class="more-info__list">
+                            <a href="https://raim-2.tistory.com/" target="_blank" title="새창으로 열림">
+                                <span>
+                                <i class="fa-solid fa-link"></i>
+                                </span>
+                                <span>티스토리</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="mailto:earnestga@naver.com" class="section3__mail">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        earnestga@naver.com
+                    </a>
+                </div>
+            </section>
+        </article>
+        <footer id="footer" class="footer">
+            <p>본 페이지는 개인 포트폴리오용으로 제작되었습니다.</p>
+            <p>&copy; 2023 KIM MINGYEONG.</p>
+            <a href="#top" class="btn top_btn flex" aria-label="위로 이동 버튼"><span class="btn__text">TOP</span></a>
+        </footer>
+    </div>
+    <!-- <p class="text" style="position:fixed; font-size: 3rem; z-index: 20; right:1rem; top:0;">0</p> -->
+    <!-- <script defer src="./js/project.js"></script>
+    <script defer src="./js/index.js"></script> -->
+</body>
+</html>

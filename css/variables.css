@@ -1,0 +1,10 @@
+:root {
+  --main_color: #055f9c;
+  --font_color : #fff;
+  --main_color2 : #FFCC00;
+  --text-deco_color : #0d6efd;
+  --btn_font-size: 1.4rem;
+  --btn-font-weight: 500;
+  --default-border: 1px solid #ccc;
+  --horizontal-space: 25px;
+}

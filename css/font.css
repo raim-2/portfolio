@@ -1,0 +1,70 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.5
+}
+
+/*header*/
+.nav__list {font-size: 1.75rem; font-weight: 700; font-family: 'Roboto', sans-serif}
+.nav__list .list__text, .btn_open, .btn_close {color: var(--font_color)}
+.btn {font-size: var(--btn_font-size); font-weight: var(--btn-font-weight); background-color: var(--main_color2)}
+
+/*section*/
+.section, .intro {text-align: center}
+.section {padding: 5rem 0}
+
+.intro__top {color: var(--font_color)}
+.intro__text {font-size: 2.75rem; font-weight: 300}
+.intro__tit {font-size: 6rem; font-weight: 500}
+.section {font-size: 1.6rem}
+
+
+.intro__bottom .intro__text::before {content:'WEB PORTFOLIO  x'}
+.intro__bottom .intro__text {
+    --ch : 14ch;
+    --clr : #ccc;
+    color: transparent;
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: -0.5rem;
+    white-space: nowrap;
+    text-shadow: calc(var(--ch) * 0) 0 1px var(--clr), calc(var(--ch) * 1) 0 1px var(--clr), 
+    calc(var(--ch) * 2) 0 1px var(--clr), calc(var(--ch) * 3) 0 1px var(--clr), calc(var(--ch) * 4) 0 1px var(--clr);
+    animation: flowText 5s linear infinite;
+}
+
+@keyframes flowText {
+    to {text-shadow: calc(var(--ch) * -1) 0 1px var(--clr), calc(var(--ch) * 0) 0 1px var(--clr), 
+    calc(var(--ch) * 1) 0 1px var(--clr), calc(var(--ch) * 2) 0 1px var(--clr), calc(var(--ch) * 3) 0 1px var(--clr)}
+}
+
+/*section - profile*/
+.profile__intro {font-size: 2.5rem; font-weight: 600}
+.skill__list {color: var(--font_color)}
+.skill__tit {font-size: 4rem; font-weight: 600}
+.skill__des  {font-size: 1.6rem}
+
+/*section - project*/
+.section2__project {text-align: left}
+.info__tit {font-size: 2.9rem; font-weight: 600}
+.detail__tit {font-weight: 600}
+.btn_visit, .btn_visit:visited {color: var(--text-deco_color)}
+.btn_visit:hover {text-decoration: underline}
+
+/*section - contact*/
+.section__tit {font-size: 4.5rem; font-family: 'Roboto', sans-serif; font-weight: 700; line-height: 1}
+.section3__more-info {font-size: 2rem}
+.ico_smile {font-size: 10rem}
+.section3__mail {font-size: 1.75rem}
+.section2__page {font-size: 2rem; font-weight: 500}
+
+
+/*section - footer*/
+.footer {color: var(--font_color); font-size: 1.35rem}
+.section3__text {font-size: 1.8rem}
