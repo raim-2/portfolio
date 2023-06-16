@@ -1,5 +1,5 @@
 # PORTFOLIO
-<https://earnestga3.cafe24.com/portfolio/>
+<https://earnestga3.cafe24.com/project/>
 
 ## PROJECT
 + 기업형 웹프로젝트 (PC형)
