@@ -61,13 +61,13 @@ xhr.onload = function() {
   }
 };
 
-document.querySelector('.btn_right').onclick=function(){
+document.querySelector('.btn_right').onclick = function(){
       cnt++;  // 0 1 2 3 4 0 1 2 3 4 
       if(cnt==total)cnt=0;
       ok(cnt);
 }
 
-document.querySelector('.btn_left').onclick=function(){
+document.querySelector('.btn_left').onclick = function(){
   cnt--; // 4 3 2 1 0 4 3 2 1 0
   if(cnt<0)cnt=total-1;
   ok(cnt);

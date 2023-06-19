@@ -116,7 +116,6 @@ body {
 
 /*intro*/
 .intro {
-    /* border-bottom: var(--default-border); */
     min-height: fit-content;
     z-index: 5
 }
@@ -194,15 +193,14 @@ body {
 
 .profile__intro {
     margin: 3.5rem 0 0 0;
-    /* width: 27rem; */
     text-align: left
 }
 
 .ico_hello {
     background: url(../images/ico_hello.png) 0 0 no-repeat;
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
     display: inline-block;
     position: relative;
     left: 6px;
@@ -235,7 +233,7 @@ body {
     width: 0%;
     height: 5px;
     background: var(--main_color2);
-    transition: all .3s linear
+    transition: all .5s linear
 }
 
 .section1:hover .text--bold::after {
@@ -589,13 +587,40 @@ body {
         margin: 0 10%
     }
 
-    .ico_hello {
+    
+    .profile__intro {
+        text-align: center;
+        transform: translate(0, 3rem);
+        visibility: hidden;
+    }
+
+    .profile__intro.on {
+        animation: showText .8s forwards;
+    }
+
+    @keyframes showText {
+        from {
+            transform: translate(0, 3rem);
+            visibility: hidden
+        }
+
+        to {
+            transform: translate(0, 0);
+            visibility: visible
+        }
+    }
+
+    .section1 .ico_hello.on {
         animation: shakeHand .6s infinite forwards;
         will-change: rotate
     }
 
-    .profile__intro {
-        text-align: center
+    .text--bold.on::after {
+        transition: all .5s linear 1s
+    }
+
+    .text--bold.on::after {
+        width: 100%
     }
 
     .profile__skill {
@@ -607,8 +632,7 @@ body {
         border-radius: 20px;
         padding: 5rem 0;
         margin: 0 auto;
-        color: #000;
-        display: flex
+        color: #000
     }
 
     .skill__list::after {
@@ -625,8 +649,15 @@ body {
     }
 
     /*project*/
+    .section2_inner {
+        padding: 5rem 1.5rem
+    }
+
     .project__info {
-        margin: 10rem 0rem
+        margin: 10rem 0rem;
+        width: 100%;
+        word-break: break-all;
+        overflow: hidden;
     }
 
     .project__result {
@@ -661,7 +692,7 @@ body {
     }
 
     .project__info {
-        margin: 7rem 0rem
+        margin: 7rem 0rem;
     }
 }
 
